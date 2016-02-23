@@ -1,0 +1,10 @@
+AddType audio/ogg oga
+AddType video/ogg ogv ogg
+AddType video/mp4 .mp4 .m4v
+AddType video/webm webm
+AddType application/x-shockwave-flash swf 
+AddType audio/aac .aac
+AddType audio/mpeg .mp1 .mp2 .mp3 .mpg .mpeg
+AddType audio/ogg .oga .ogg
+AddType audio/wav .wav
+AddType audio/webm .webm

@@ -1,0 +1,586 @@
+﻿body{
+
+
+
+max-width:1200px; 
+
+margin-left:75px;
+
+margin-right:75px;
+
+background-color:rgb(0,124,178);
+
+  background-repeat: no-repeat;
+
+  background-attachment: scroll;
+
+  background-position: 12px 400px;
+
+background-size:100% 60%;
+
+
+
+}
+
+header,footer
+
+    {
+
+    z-index:100;
+
+    }
+
+                
+
+header nav
+
+    {
+
+    margin:20px;
+
+    -moz-border-radius: 15px;
+
+    border-radius: 15px;
+
+    float:right;
+
+    z-index:99;
+
+    text-shadow: 0px 0px 2px #eeb213;
+
+	-webkit-transition: all 0.2s linear;
+
+	-moz-transition: all 0.2s linear;
+
+	-o-transition: all 0.2s linear;
+
+	-ms-transition: all 0.2s linear;
+
+	transition: all 0.2s linear;
+
+
+
+    }
+
+header nav a
+
+{
+
+font-size:large;
+
+text-shadow: 2px 2px 2px #000;
+
+color:orange;
+
+text-decoration:none;
+
+    margin: 10px;
+
+}
+
+header nav:hover a{
+
+	text-shadow: 0px 0px 10px #eeb213;
+
+	color: transparent;
+
+}
+
+header nav a:hover
+
+{
+
+	text-shadow: 2px 2px 2px #000;
+
+	font-size:24px;
+
+	color:orange;
+
+}
+
+header{
+
+height:230px;
+
+background-color:rgb(0,124,178);
+
+background-image:url(../images/HomeBackground.jpg);
+
+background-size:100% 230px, contain;
+
+background-position:left;
+
+background-repeat:no-repeat;
+
+-moz-border-radius-bottomleft: 3px 2px;
+
+-moz-border-radius: 15px;
+
+border-radius: 15px;
+
+border-color: rgb(0,124,178) rgb(0,124,178) transparent rgb(0,124,178);
+
+-webkit-border-radius:15px;
+
+}
+
+
+
+section#sidebar{
+
+    border:3px dotted black;
+
+    float:right;
+
+    width:20%;
+
+    -moz-border-radius: 15px;
+
+    border-radius: 15px;
+
+    background-color:white;     
+
+    
+
+}
+
+section#articles{
+
+border-top-right-radius:1em 1em;
+
+border-top-left-radius:1em 1em;
+
+border-bottom-right-radius:1em 1em;
+
+margin-left:15px;
+
+    border:2px solid;
+
+background-color:black;
+
+}
+
+section#articles h2{
+
+ color:rgb(0,124,178);
+
+margin-top:0;
+
+margin-left:10px;
+
+}
+
+section#articles article{
+background-color:White;
+
+    border:2px solid gray;
+
+    margin:15px;
+
+    border-bottom-right-radius: 15px;
+
+    border-top-right-radius:15px;
+    position:relative;
+    z-index:90;
+
+
+}
+article a img{
+	border-style: none;
+}
+article hgroup{
+
+    margin: 0.67em 0px;
+
+}
+
+article hgroup *{
+
+    margin: 0px;
+
+}
+
+article h1 *{
+
+font-size: 1em;
+
+}
+
+article h2 *{
+
+    font-size: 0.67em;
+
+}
+
+aside{
+
+    border: 1px solid;
+
+    max-width:20%;
+
+    float:right;
+
+    }
+
+figure{
+
+   float:left;
+
+   border:1px black solid;
+
+   background-color:black;
+
+   }
+
+figure video{
+
+padding:5px 5px 20px 5px;
+
+}
+
+footer{
+
+margin-left:15px;
+
+position:relative;
+
+border-bottom-left-radius:1em 1em;
+
+border-top-right-radius:15px;
+
+border-bottom-right-radius: 15px;  
+
+background-color:black;
+
+height:150px;
+
+background-repeat:no-repeat;
+
+background-image:url(../images/homeFooter.png);
+
+background-size:100%;
+
+    clear:both;
+
+}
+
+footer nav
+
+    {
+
+    position:absolute;
+
+    top:90PX;
+
+    margin:30px;
+
+    float:left;
+
+    z-index:99;
+
+    text-shadow: 0px 0px 2px #eeb213;
+
+	-webkit-transition: all 0.2s linear;
+
+	-moz-transition: all 0.2s linear;
+
+	-o-transition: all 0.2s linear;
+
+	-ms-transition: all 0.2s linear;
+
+	transition: all 0.2s linear;
+
+
+
+    }
+
+footer nav a
+
+{
+
+font-size:large;
+
+text-shadow: 2px 2px 2px #000;
+
+color:orange;
+
+text-decoration:none;
+
+    margin: 10px;
+
+}
+
+
+
+footer nav:hover a{
+
+	text-shadow: 0px 0px 10px #eeb213;
+
+	color: transparent;
+
+}
+
+footer nav a:hover
+
+{
+
+	text-shadow: 2px 2px 2px #000;
+
+	font-size:24px;
+
+	color:orange;
+
+}
+.facebook
+
+{
+
+position:absolute;
+
+background-color:transparent;
+
+top:90px;
+
+right: 100px;
+
+float:right;
+
+border:0;
+
+
+
+}
+
+
+.firefox
+
+{
+
+position:absolute;
+
+background-color:transparent;
+
+top:90px;
+
+right: 50px;
+
+float:right;
+
+border:0;
+
+
+
+}
+
+.html5{
+
+padding:0;
+
+position:absolute;
+
+top:90px;
+
+right: 1px;
+
+float:right;
+
+background-color:white;
+
+}
+
+/* CSS3 Reflection code */
+
+
+
+.reflected {
+
+z-index:80;
+
+    position: relative;
+
+}
+
+.reflected:before, .reflected:after {
+
+    display:table;
+
+    position: absolute;
+
+    bottom: -.7em; /* You should change this value to fit your font */
+
+    left: 0;
+
+    right: 0;
+
+}
+
+.reflected:before {
+
+    content: 'We want your business “doin it right”, what ever it takes.';
+
+    opacity: .3;
+
+    /* This is how the text is flipped vertically */
+
+    -webkit-transform: scaleY(-1);
+
+    -moz-transform: scaleY(-1);
+
+    -o-transform: scaleY(-1);
+
+}
+
+.reflected:after {
+
+    /* Fading using CSS gradient */
+
+    /* Don't forget to change the colors to your background color */
+
+     background: -webkit-gradient(linear, left top, left center, from(rgba(0,0,0,0)), to(rgb(0,0,0)));
+
+    background: -moz-linear-gradient(top, rgba(0,0,0,0), rgb(0,0,0));
+
+    /* I left out the `filter` property,
+
+       because IE doesn't know `:before` and `:after` pseudo-elements anyway */
+
+    content: ' ';
+
+    height: .5em;
+
+}
+
+#navlist { list-style-type:disc; color:rgb(0,124,178); margin:0;} 
+
+.bubble {
+	clear: both;
+	margin: 0px auto;
+	width: 350px;
+	background: #fff;
+	-moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+	-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);	
+	position: relative; 
+	z-index: 90; /* the stack order: displayed under ribbon rectangle (100) */
+}
+
+.rectangle {
+	background: #7f9db9; /*#7f9db9*/
+	height: 50px;
+	width: 380px;
+	position: absolute;
+	left:-15px;
+	float: left;
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	z-index: 100; /* the stack order: foreground */
+
+
+}
+
+.rectangle h2 {
+font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	font-size: 25px;
+	color:#FFFFFF;/*#fff*/
+	padding-top: 6px;
+text-shadow:0 -1px 1px rgba(0,0,0,0.5);  	
+text-align: center;
+}
+
+.triangle-l {
+	border-color: transparent #7d90a3 transparent transparent;
+	border-style:solid;
+	border-width:15px;
+	height:0px;
+	width:0px;
+	position: relative;
+	left: -30px;
+	top: 65px;
+	z-index: -1; /* displayed under bubble */
+}
+
+.triangle-r {
+	border-color: transparent transparent transparent #7d90a3;
+	border-style:solid;
+	border-width:15px;
+	height:0px;
+	width:0px;
+	position: relative;
+	left: 350px;
+	top: 35px;
+	z-index: -1; /* displayed under bubble */
+}
+/*this is used to make the accordian*/
+.ui-accordion .ui-accordion-header {
+  cursor: pointer;
+  position: relative;
+  margin-top: 1px;
+  zoom: 1;
+}
+.ui-accordion .ui-accordion-li-fix {
+  display: inline;
+}
+.ui-accordion .ui-accordion-header-active {
+  border-bottom: 0 !important;
+}
+.ui-accordion .ui-accordion-header a {
+  display: block;
+  font-size: 1em;
+  padding: .5em .5em .5em .7em;
+font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	font-size: 25px;
+	color:#7f9db9;/*#fff*/
+text-shadow:0 -1px 1px rgba(0,0,0,0.5);
+text-decoration: none;
+
+}
+/* IE7-/Win - Fix extra vertical space in lists */
+.ui-accordion a {
+  zoom: 1;
+}
+.ui-accordion-icons .ui-accordion-header a {
+  padding-left: 2.2em;
+}
+
+.ui-accordion .ui-accordion-header .ui-icon {
+  position: absolute;
+  left: .5em;
+  top: 50%;
+  margin-top: -8px;
+  border-bottom-left-radius: 15px;
+  
+}
+.ui-accordion .ui-accordion-content {
+  padding: 1em 2.2em;
+  border-top: 0;
+  margin-top: 2px;
+  position: relative;
+  top: 1px;
+  margin-bottom: 2px;
+  overflow: auto;
+  display: none;
+  zoom: 1;
+  background-color: #000;
+      border-bottom-right-radius: 15px;
+    border-top-right-radius:15px;
+    border-top-left-radius: 15px;
+}
+.ui-accordion .ui-accordion-content-active {
+  display: block;
+}
+
+td img{
+    /*height:100px;*/
+    margin-left: 5px;
+    margin-right: 5px;
+
+-moz-box-shadow: 0 0 10px 7px rgb(0,124,178);
+ box-shadow: 0 0 10px 7px rgb(0,124,178);
+
+-webkit-box-reflect: below 0
+    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.7, transparent), to(white));
+}

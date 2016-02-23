@@ -1,0 +1,39 @@
+﻿body { 
+height:600px;
+width:1400px;
+background-repeat:no-repeat;
+text-align:center;
+position:relative;
+
+}
+body figure{
+position:absolute;
+width:1400px;
+height:700px;
+z-index:100;
+left:1px;
+top:1px;
+
+}
+img
+{
+left:100px;
+top:100px;
+
+position:absolute;
+width:922px;
+height:506px;
+	z-index:200;
+}
+.spacer
+{
+position: absolute;
+width:1400px;
+height:700px;
+
+	
+}
+
+#Linkin  {
+    outline: none;
+} 
